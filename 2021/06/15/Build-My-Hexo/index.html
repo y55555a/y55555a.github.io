@@ -79,17 +79,23 @@
 
 
 
-<meta name="description" content="Github + Hexo 搭建手册">
+<meta name="description" content="Github + Hexo 搭建手册1、环境配置在正式安装 Hexo 之前，我们需要确认电脑中是否已安装下列应用程序:  Node.js Git  当然，我们还需要 GitHub 账号，如果没有请注册。注册之后记得一定要前往邮箱确认注册，否则无法使用 GitHub Pages。 2、Hexo安装123456789101112131415161718&#x2F;&#x2F;安装hexo客户端npm install -g">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Build My Hexo">
 <meta property="og:url" content="http://example.com/2021/06/15/Build-My-Hexo/index.html">
 <meta property="og:site_name" content="YangMing">
-<meta property="og:description" content="Github + Hexo 搭建手册">
+<meta property="og:description" content="Github + Hexo 搭建手册1、环境配置在正式安装 Hexo 之前，我们需要确认电脑中是否已安装下列应用程序:  Node.js Git  当然，我们还需要 GitHub 账号，如果没有请注册。注册之后记得一定要前往邮箱确认注册，否则无法使用 GitHub Pages。 2、Hexo安装123456789101112131415161718&#x2F;&#x2F;安装hexo客户端npm install -g">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.loli.net/2021/06/15/hpXFzr2ZyBWqY5m.png">
+<meta property="og:image" content="https://i.loli.net/2021/06/15/lUGfdbOtYngewzQ.png">
+<meta property="og:image" content="https://i.loli.net/2021/06/15/qhJMHpZbuwrWzyg.png">
+<meta property="og:image" content="https://i.loli.net/2021/06/15/7uXz83TUka9NIMe.png">
+<meta property="og:image" content="https://i.loli.net/2021/06/15/IkHEmwB9GntWT82.png">
 <meta property="article:published_time" content="2021-06-15T13:20:10.000Z">
-<meta property="article:modified_time" content="2021-06-15T13:20:52.718Z">
+<meta property="article:modified_time" content="2021-06-15T15:13:20.228Z">
 <meta property="article:author" content="yangming">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/06/15/hpXFzr2ZyBWqY5m.png">
 
 
 
@@ -181,7 +187,7 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/%20" rel="section">
+          <a href="/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
@@ -191,7 +197,7 @@
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/archives/%20" rel="section">
+          <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
@@ -333,7 +339,59 @@
       
 
       
-        <h1 id="Github-Hexo-搭建手册"><a href="#Github-Hexo-搭建手册" class="headerlink" title="Github + Hexo 搭建手册"></a>Github + Hexo 搭建手册</h1>
+        <h1 id="Github-Hexo-搭建手册"><a href="#Github-Hexo-搭建手册" class="headerlink" title="Github + Hexo 搭建手册"></a>Github + Hexo 搭建手册</h1><h2 id="1、环境配置"><a href="#1、环境配置" class="headerlink" title="1、环境配置"></a>1、环境配置</h2><p>在正式安装 Hexo 之前，我们需要确认电脑中是否已安装下列应用程序:</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://nodejs.org/en/">Node.js</a></li>
+<li><a target="_blank" rel="noopener" href="https://git-scm.com/">Git</a></li>
+</ul>
+<p>当然，我们还需要 GitHub 账号，如果没有请<a target="_blank" rel="noopener" href="https://github.com/">注册</a>。<br>注册之后记得一定要前往邮箱确认注册，否则无法使用 GitHub Pages。</p>
+<h2 id="2、Hexo安装"><a href="#2、Hexo安装" class="headerlink" title="2、Hexo安装"></a>2、Hexo安装</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">//安装hexo客户端</span><br><span class="line">npm install -g hexo-cli</span><br><span class="line">//sudo npm install -g hexo-cli  其他系统可能需要管理员权限。实测windows不需要</span><br><span class="line"></span><br><span class="line">//初始化(会新建文件夹blog，如果需要其他名称请自行改名）</span><br><span class="line">hexo init blog</span><br><span class="line"></span><br><span class="line">//进入目录</span><br><span class="line">cd blog</span><br><span class="line"></span><br><span class="line">//安装npm</span><br><span class="line">npm install</span><br><span class="line"></span><br><span class="line">//开启本地 Hexo 服务器</span><br><span class="line">hexo s</span><br><span class="line"></span><br><span class="line">//</span><br><span class="line">浏览器中打开网址(默认是4000端口) http://localhost:4000 ，能看到如下页面：</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2021/06/15/hpXFzr2ZyBWqY5m.png" alt="68747470733a2f2f692e6c6f6c692e6e65742f323031372f31302f30352f353964356337386634616161652e706e67.png"></p>
+<h2 id="3、关联-GitHub"><a href="#3、关联-GitHub" class="headerlink" title="3、关联 GitHub"></a>3、关联 GitHub</h2><h3 id="3-1-创建仓库"><a href="#3-1-创建仓库" class="headerlink" title="3.1 创建仓库"></a>3.1 创建仓库</h3><ol>
+<li>登录您的 GitHub 账号，新建名称为<code>您的用户名.github.io</code>的仓库。假设我的 GitHub 账号的用户名是 <code>luxun</code>，那么我就应该新建名称为<code>luxun.github.io</code>的仓库。</li>
+<li><code>Description</code>可写可不写，随意。</li>
+<li>勾上<code>Initialize this repository with a README</code>。</li>
+<li>点击<code>Create Repository</code>完成创建。</li>
+</ol>
+<h3 id="3-2-修改全局配置文件"><a href="#3-2-修改全局配置文件" class="headerlink" title="3.2 修改全局配置文件"></a>3.2 修改全局配置文件</h3><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration.html">Hexo 官方文档</a>中有对全局配置的详细说明，推荐阅读。</p>
+<p><u>改本地所有的配置文件时，注意所有的冒号<code>:</code>后边都要加一个空格，否则执行 Hexo 命令时会报错，一定注意。</u></p>
+<p>找到本地<code>blog</code>文件夹下<code>_config.yml</code>，打开后滑到最后，修改成下边的样子</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https://github.com/xxx/xxx.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
+<p>您需要将<code>repository</code>后的所有<code>xxx</code>换成你自己的用户名，或者也可以在下图位置获取：</p>
+<p><img src="https://i.loli.net/2021/06/15/lUGfdbOtYngewzQ.png" alt="68747470733a2f2f692e6c6f6c692e6e65742f323031372f31302f30362f353964373166333333313334332e706e67.png"></p>
+<p>然后，您需要为自己配置身份信息，终端输入<code>yourname</code>和<code>youremail</code>换成您自己的 GitHub 用户名和邮箱)：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;yourname&quot;</span><br><span class="line">git config --global user.email &quot;youremail&quot;</span><br></pre></td></tr></table></figure>
+
+<p>终端<code>cd</code>到<code>blog</code>文件夹下执行生成静态页面命令：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">生成静态界面</span></span><br><span class="line">hexo g</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">部署（上传git）</span></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<p>可能报错：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">1、</span></span><br><span class="line">ERROR Local hexo not found in ~/blog</span><br><span class="line">ERROR Try runing: &#x27;npm install hexo --save&#x27;</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">尝试执行命令：否则可以不用执行</span></span><br><span class="line">npm install hexo --save</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">2、</span></span><br><span class="line">如果您执行命令hexo d仍然报错：无法连接 git 或找不到 git，</span><br><span class="line">则执行如下命令来安装hexo-deployer-git：</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line"><span class="meta">#</span><span class="bash">完成安装之后，再次执行hexo g和hexo d命令。</span></span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">随后按照提示，分别输入自己的 GitHub 用户名和密码，开始上传。</span></span><br><span class="line"><span class="meta">#</span><span class="bash">完成上传之后，通过http://xxx.github.io/ (xxx换成您自己的仓库名，也就是用户名)来访问自己刚刚上传的网站。</span></span><br><span class="line"><span class="meta">#</span><span class="bash">为避免每次输入 GitHub 用户名和密码的麻烦，可参照后文 优化(个性化设置) 添加ssh key 到 GitHub进行优化</span></span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">3、403问题</span></span><br><span class="line"><span class="meta">#</span><span class="bash">大概率为自身网络问题，国内连接github不稳定导致。该怎么做自己看着办吧。详细见下图：</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2021/06/15/qhJMHpZbuwrWzyg.png" alt="image.png"></p>
+<h3 id="3-3-开启-GitHub-Pages"><a href="#3-3-开启-GitHub-Pages" class="headerlink" title="3.3 开启 GitHub Pages"></a>3.3 开启 GitHub Pages</h3><p>击<code>Settings</code>，你将会打开这个库的 Settings 页面，向下拖动，直到看见 GitHub Pages，如图：</p>
+<p>选择master分支<br><img src="https://i.loli.net/2021/06/15/7uXz83TUka9NIMe.png" alt="image.png"></p>
+<h3 id="3-4-验证"><a href="#3-4-验证" class="headerlink" title="3.4 验证"></a>3.4 验证</h3><p>打开网址：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://y55555a.github.io/</span><br></pre></td></tr></table></figure>
+
+<p>即可看到网站</p>
+<h2 id="4、next主题"><a href="#4、next主题" class="headerlink" title="4、next主题"></a>4、next主题</h2><p>如果您喜欢 Hexo 默认的主题的话，可以跳过这部分。如果您想换一个主题的话，可以到<a target="_blank" rel="noopener" href="https://hexo.io/themes/">Hexo 主题</a>挑选自己中意的主题。</p>
+<p>这里以<a target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next">nexT 主题</a>为例。</p>
+<h3 id="4-1下载主题"><a href="#4-1下载主题" class="headerlink" title="4.1下载主题"></a>4.1下载主题</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">终端<span class="built_in">cd</span>到blog目录下执行如下命令</span></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="built_in">cd</span> blog</span></span><br><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br><span class="line"></span><br><span class="line">打开blog目录下的_config.yml，找到theme: landscape修改为theme: next。</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">至于更改博客的名称、描述、头像等，只需要修改blog/_config.yml文件和blog/themes/next/_config.yml文件中对应的属性名称即可(不要忘记冒号:后加空格)。</span></span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">更多设置NexT 使用文档里有极详细的介绍，推荐阅读。</span></span><br><span class="line">http://theme-next.iissnan.com/</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="4-2-安装hexo-renderer-swig"><a href="#4-2-安装hexo-renderer-swig" class="headerlink" title="4.2 安装hexo-renderer-swig"></a>4.2 安装hexo-renderer-swig</h3><p>hexo在5.0之后把swig给删除了需要自己手动安装</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">blog目录下</span></span><br><span class="line">npm i hexo-renderer-swig</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-3-search插件安装"><a href="#4-3-search插件安装" class="headerlink" title="4.3 search插件安装"></a>4.3 search插件安装</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">blog 目录下</span></span><br><span class="line">npm install hexo-generator-searchdb --save</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">修改：blog/_config.yml，注意“：”和空格</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Extensions</span></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># Plugins: https://hexo.io/plugins/</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># Themes: https://hexo.io/themes/</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash">theme: landscape</span></span><br><span class="line">theme: next</span><br><span class="line"><span class="meta">#</span><span class="bash"> 搜索</span></span><br><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br><span class="line"><span class="meta">  </span></span><br><span class="line"><span class="meta">#</span><span class="bash">修改blog/theme/_config.yml</span></span><br><span class="line">找到 local_search 项，将它的enable修改为true。</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-4-Cannot-GET-archives-20问题"><a href="#4-4-Cannot-GET-archives-20问题" class="headerlink" title="4.4 Cannot GET /archives/%20问题"></a>4.4 Cannot GET /archives/%20问题</h3><p>导航栏点击后会出现“Cannot GET /archives/%20”，无法正常跳转</p>
+<p>原因：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">在 next 的 _config.yml 文件里的第 95 行</span><br><span class="line">94:menu:</span><br><span class="line">95: home: / || home 改为：</span><br><span class="line">95: home: /|| home</span><br><span class="line"></span><br><span class="line">同理修改</span><br><span class="line">archives: /archives/ || archive 为</span><br><span class="line">archives: /archives/|| archive</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2021/06/15/IkHEmwB9GntWT82.png" alt="hexo_wrong.png"></p>
+
       
     </div>
     
@@ -440,7 +498,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/%20%7C%7C%20archive">
+                <a href="/archives/%7C%7C%20archive">
               
                   <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
@@ -479,7 +537,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Github-Hexo-%E6%90%AD%E5%BB%BA%E6%89%8B%E5%86%8C"><span class="nav-number">1.</span> <span class="nav-text">Github + Hexo 搭建手册</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Github-Hexo-%E6%90%AD%E5%BB%BA%E6%89%8B%E5%86%8C"><span class="nav-number">1.</span> <span class="nav-text">Github + Hexo 搭建手册</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1%E3%80%81%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE"><span class="nav-number">1.1.</span> <span class="nav-text">1、环境配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2%E3%80%81Hexo%E5%AE%89%E8%A3%85"><span class="nav-number">1.2.</span> <span class="nav-text">2、Hexo安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3%E3%80%81%E5%85%B3%E8%81%94-GitHub"><span class="nav-number">1.3.</span> <span class="nav-text">3、关联 GitHub</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93"><span class="nav-number">1.3.1.</span> <span class="nav-text">3.1 创建仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-%E4%BF%AE%E6%94%B9%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="nav-number">1.3.2.</span> <span class="nav-text">3.2 修改全局配置文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-3-%E5%BC%80%E5%90%AF-GitHub-Pages"><span class="nav-number">1.3.3.</span> <span class="nav-text">3.3 开启 GitHub Pages</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-4-%E9%AA%8C%E8%AF%81"><span class="nav-number">1.3.4.</span> <span class="nav-text">3.4 验证</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4%E3%80%81next%E4%B8%BB%E9%A2%98"><span class="nav-number">1.4.</span> <span class="nav-text">4、next主题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#4-1%E4%B8%8B%E8%BD%BD%E4%B8%BB%E9%A2%98"><span class="nav-number">1.4.1.</span> <span class="nav-text">4.1下载主题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-2-%E5%AE%89%E8%A3%85hexo-renderer-swig"><span class="nav-number">1.4.2.</span> <span class="nav-text">4.2 安装hexo-renderer-swig</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-3-search%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85"><span class="nav-number">1.4.3.</span> <span class="nav-text">4.3 search插件安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-4-Cannot-GET-archives-20%E9%97%AE%E9%A2%98"><span class="nav-number">1.4.4.</span> <span class="nav-text">4.4 Cannot GET &#x2F;archives&#x2F;%20问题</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
