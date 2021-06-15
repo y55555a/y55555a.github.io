@@ -107,4 +107,16 @@
         <category>hexo</category>
       </categories>
   </entry>
+  <entry>
+    <title>Use My Hexo</title>
+    <url>/2021/06/16/Use-My-Hexo/</url>
+    <content><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><h1 id="使用Hexo"><a href="#使用Hexo" class="headerlink" title="使用Hexo"></a>使用Hexo</h1><h2 id="1、常用命令："><a href="#1、常用命令：" class="headerlink" title="1、常用命令："></a>1、常用命令：</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">创建新文件：</span></span><br><span class="line">hexo new &quot;name&quot;</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">添加分类（打开文件，在文件头：）</span></span><br><span class="line">categories: 分类</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">生成</span></span><br><span class="line">hexo g</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">本地测试</span></span><br><span class="line">hexo s</span><br><span class="line"><span class="meta">#</span><span class="bash">本地测试url：</span></span><br><span class="line">http://localhost:4000/</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">部署到git</span></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+  </entry>
 </search>
