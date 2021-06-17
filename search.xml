@@ -133,4 +133,32 @@
         <category>usual</category>
       </categories>
   </entry>
+  <entry>
+    <title>oracle client not properly installed</title>
+    <url>/2021/06/17/oracle-client-not-properly-installed/</url>
+    <content><![CDATA[<h1 id="oracle-client-not-properly-installed"><a href="#oracle-client-not-properly-installed" class="headerlink" title="oracle client not properly installed"></a>oracle client not properly installed</h1><p>PL/SQL 安装后报错：</p>
+<p>oracle client not properly installed</p>
+<p>进入登陆界面：</p>
+<p><img src="https://i.loli.net/2021/06/17/1T2VLEqoR7OFHly.png" alt="PLSQL_error1.png"></p>
+<p>注意到：</p>
+<p><img src="https://i.loli.net/2021/06/17/niFScyv4eubDrfh.png" alt="PLSQL_error2.png"></p>
+<span id="more"></span>
+
+<p>解决方法：</p>
+<p>1.下载instanceclient并解压</p>
+<p>网站：<a href="https://www.oracle.com/cn/database/technology/instant-client.html">https://www.oracle.com/cn/database/technology/instant-client.html</a></p>
+<p>下载Instant Client 下载 适用于 Microsoft Windows (x64) 64 位</p>
+<p>Basic 软件包即可</p>
+<p>2.打开PL/SQL，在连接数据库的界面点击Cancel按钮进入PL/SQL的界面</p>
+<p>3.Configure —&gt;  Oracle —&gt;  Connection —&gt;  OCI Libray</p>
+<p>在OCI librariy(empty is autodetect)中填入之前解压的instanceclient目录下的oci.dll路径</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">D:\MyFiles\PLSQL Developer 12\instantclient_12_2\oci.dll</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2021/06/17/UhmcnDp4CYNd9la.png" alt="PLSQL_error3.png"></p>
+<p>4、重启PL/SQL即可</p>
+]]></content>
+      <categories>
+        <category>oracle</category>
+      </categories>
+  </entry>
 </search>
