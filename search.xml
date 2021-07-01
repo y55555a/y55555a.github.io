@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Use My Hexo</title>
-    <url>/2021/06/16/Use-My-Hexo/</url>
-    <content><![CDATA[<h2 id="常用命令："><a href="#常用命令：" class="headerlink" title="常用命令："></a>常用命令：</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">git图床,注意登陆</span></span><br><span class="line">https://sm.ms/</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">创建新文件：</span></span><br><span class="line">hexo new &quot;name&quot;</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">抬头</span></span><br><span class="line">---</span><br><span class="line">title:</span><br><span class="line">- Title</span><br><span class="line">date: </span><br><span class="line">- YYYY-MM-NN hh-mm-ss</span><br><span class="line">tags:</span><br><span class="line">- tag1</span><br><span class="line">- tag2</span><br><span class="line">top:</span><br><span class="line">- false</span><br><span class="line">categories:</span><br><span class="line">- hello</span><br><span class="line">---</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">生成</span></span><br><span class="line">hexo g</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">本地测试</span></span><br><span class="line">hexo s</span><br><span class="line"><span class="meta">#</span><span class="bash">本地测试url：</span></span><br><span class="line">http://localhost:4000/</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">部署到git</span></span><br><span class="line">hexo d</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">长文本部分显示</span></span><br><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Oracle12c卸载</title>
     <url>/2021/07/01/Oracle12c%E5%8D%B8%E8%BD%BD/</url>
     <content><![CDATA[<h2 id="1、关闭oracle实例"><a href="#1、关闭oracle实例" class="headerlink" title="1、关闭oracle实例"></a>1、关闭oracle实例</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">关闭cdb</span></span><br><span class="line">shutdown immediate;</span><br></pre></td></tr></table></figure>
@@ -46,6 +34,18 @@
       <tags>
         <tag>oracle</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Use My Hexo</title>
+    <url>/2021/06/16/Use-My-Hexo/</url>
+    <content><![CDATA[<h2 id="常用命令："><a href="#常用命令：" class="headerlink" title="常用命令："></a>常用命令：</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">git图床,注意登陆</span></span><br><span class="line">https://sm.ms/</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">创建新文件：</span></span><br><span class="line">hexo new &quot;name&quot;</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">抬头</span></span><br><span class="line">---</span><br><span class="line">title:</span><br><span class="line">- Title</span><br><span class="line">date: </span><br><span class="line">- YYYY-MM-NN hh-mm-ss</span><br><span class="line">tags:</span><br><span class="line">- tag1</span><br><span class="line">- tag2</span><br><span class="line">top:</span><br><span class="line">- false</span><br><span class="line">categories:</span><br><span class="line">- hello</span><br><span class="line">---</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">生成</span></span><br><span class="line">hexo g</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">本地测试</span></span><br><span class="line">hexo s</span><br><span class="line"><span class="meta">#</span><span class="bash">本地测试url：</span></span><br><span class="line">http://localhost:4000/</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">部署到git</span></span><br><span class="line">hexo d</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">长文本部分显示</span></span><br><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
   </entry>
   <entry>
     <title>网络文件下载</title>
